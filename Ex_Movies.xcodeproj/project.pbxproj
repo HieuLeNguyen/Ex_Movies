@@ -15,7 +15,6 @@
 		00D85BE42CA160DA00F7F770 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 00D85BE32CA160DA00F7F770 /* Base */; };
 		00D85BED2CA2906800F7F770 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D85BEB2CA2906800F7F770 /* CustomCollectionViewCell.swift */; };
 		00D85BEE2CA2906800F7F770 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00D85BEC2CA2906800F7F770 /* CustomCollectionViewCell.xib */; };
-		00D85BF02CA2A4A600F7F770 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D85BEF2CA2A4A600F7F770 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		00D85BE52CA160DA00F7F770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00D85BEB2CA2906800F7F770 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		00D85BEC2CA2906800F7F770 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
-		00D85BEF2CA2A4A600F7F770 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +63,12 @@
 				00D85BD72CA160D900F7F770 /* AppDelegate.swift */,
 				00D85BD92CA160D900F7F770 /* SceneDelegate.swift */,
 				00D85BDB2CA160D900F7F770 /* ViewController.swift */,
-				00D85BEF2CA2A4A600F7F770 /* HeaderView.swift */,
+				00D85BEB2CA2906800F7F770 /* CustomCollectionViewCell.swift */,
+				00D85BEC2CA2906800F7F770 /* CustomCollectionViewCell.xib */,
 				00D85BDD2CA160D900F7F770 /* Main.storyboard */,
 				00D85BE02CA160DA00F7F770 /* Assets.xcassets */,
 				00D85BE22CA160DA00F7F770 /* LaunchScreen.storyboard */,
 				00D85BE52CA160DA00F7F770 /* Info.plist */,
-				00D85BEB2CA2906800F7F770 /* CustomCollectionViewCell.swift */,
-				00D85BEC2CA2906800F7F770 /* CustomCollectionViewCell.xib */,
 			);
 			path = Ex_Movies;
 			sourceTree = "<group>";
@@ -148,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00D85BF02CA2A4A600F7F770 /* HeaderView.swift in Sources */,
 				00D85BDC2CA160D900F7F770 /* ViewController.swift in Sources */,
 				00D85BD82CA160D900F7F770 /* AppDelegate.swift in Sources */,
 				00D85BDA2CA160D900F7F770 /* SceneDelegate.swift in Sources */,
