@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23077.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23068.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CustomCell" id="gTV-IL-0wX" customClass="CustomCollectionViewCell" customModule="Ex_Movies" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="130" height="230"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="130" height="230"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ocR-RB-z3O">
+                        <rect key="frame" x="0.0" y="0.0" width="130" height="230"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0104_frozen_disney_2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YcJ-QU-2BL">
+                                <rect key="frame" x="0.0" y="0.0" width="130" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="PG1-GH-SAg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tdo-B3-38p">
+                                <rect key="frame" x="0.0" y="164" width="130" height="66"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YcJ-QU-2BL" firstAttribute="top" secondItem="ocR-RB-z3O" secondAttribute="top" id="9rW-aS-PgY"/>
+                            <constraint firstItem="YcJ-QU-2BL" firstAttribute="leading" secondItem="ocR-RB-z3O" secondAttribute="leading" id="EXH-Ad-WKd"/>
+                            <constraint firstAttribute="bottom" secondItem="tdo-B3-38p" secondAttribute="bottom" id="Gnr-1z-mdR"/>
+                            <constraint firstItem="tdo-B3-38p" firstAttribute="leading" secondItem="ocR-RB-z3O" secondAttribute="leading" id="NML-Fe-yGj"/>
+                            <constraint firstAttribute="trailing" secondItem="YcJ-QU-2BL" secondAttribute="trailing" id="cP8-wt-PwE"/>
+                            <constraint firstAttribute="trailing" secondItem="tdo-B3-38p" secondAttribute="trailing" id="fzD-rn-PvP"/>
+                            <constraint firstItem="tdo-B3-38p" firstAttribute="top" secondItem="YcJ-QU-2BL" secondAttribute="bottom" constant="4" id="log-xN-47J"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="ocR-RB-z3O" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="6Mc-lc-TdU"/>
+                <constraint firstAttribute="trailing" secondItem="ocR-RB-z3O" secondAttribute="trailing" id="YEr-w7-TLq"/>
+                <constraint firstItem="ocR-RB-z3O" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="u0P-vY-Sv0"/>
+                <constraint firstAttribute="bottom" secondItem="ocR-RB-z3O" secondAttribute="bottom" id="uW5-kp-sCn"/>
+            </constraints>
+            <size key="customSize" width="295" height="273"/>
+            <connections>
+                <outlet property="imageView" destination="YcJ-QU-2BL" id="Rfv-Dd-Xyo"/>
+                <outlet property="titleLabel" destination="tdo-B3-38p" id="cYU-3c-7mu"/>
+            </connections>
+            <point key="canvasLocation" x="316.03053435114504" y="66.901408450704224"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="0104_frozen_disney_2.jpg" width="600" height="450"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
